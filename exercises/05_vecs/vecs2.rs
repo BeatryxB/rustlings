@@ -16,7 +16,9 @@ fn vec_loop(mut v: Vec<i32>) -> Vec<i32> {
     }
 
     // At this point, `v` should be equal to [4, 8, 12, 16, 20].
+    v
 }
+
 
 fn vec_map(v: &Vec<i32>) -> Vec<i32> {
     v.iter().map(|element| {
